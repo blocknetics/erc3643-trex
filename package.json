@@ -1,0 +1,23 @@
+{
+  "name": "erc3643-trex",
+  "version": "1.0.0",
+  "description": "ERC-3643 (T-REX) permissioned token suite: official contracts deployed via TREXFactory, ONCHAINID identities, and a custom compliance module",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy:local": "hardhat run scripts/deploy.js",
+    "clean": "hardhat clean"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "@nomicfoundation/hardhat-toolbox": "5.0.0",
+    "@onchain-id/solidity": "2.2.1",
+    "@openzeppelin/contracts": "4.9.6",
+    "@openzeppelin/contracts-upgradeable": "4.9.6",
+    "@tokenysolutions/t-rex": "4.1.6",
+    "hardhat": "2.29.1"
+  },
+  "private": true
+}
